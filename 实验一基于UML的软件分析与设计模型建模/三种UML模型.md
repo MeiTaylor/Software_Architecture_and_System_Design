@@ -1,6 +1,6 @@
 ## 用例图
 
-![img](https://taylor-1313808145.cos.ap-nanjing.myqcloud.com/images/wps1.jpg)
+![image-20231028155051461](https://taylor-1313808145.cos.ap-nanjing.myqcloud.com/images/image-20231028155051461.png)
 
 
 
@@ -8,10 +8,8 @@
 
 ## 类图
 
-![class](https://taylor-1313808145.cos.ap-nanjing.myqcloud.com/images/class.png)
-
-
+![image-20231028155109336](https://taylor-1313808145.cos.ap-nanjing.myqcloud.com/images/image-20231028155109336.png)
 
 ## 时序图
 
-![e3a4fbb5f648283bec4dcdbeeed90e6](https://taylor-1313808145.cos.ap-nanjing.myqcloud.com/images/e3a4fbb5f648283bec4dcdbeeed90e6.png)
+![image-20231028155120726](https://taylor-1313808145.cos.ap-nanjing.myqcloud.com/images/image-20231028155120726.png)
