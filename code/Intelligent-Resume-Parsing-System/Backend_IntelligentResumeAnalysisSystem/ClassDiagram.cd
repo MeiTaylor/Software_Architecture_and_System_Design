@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Controllers.ApplicantsController">
+    <Position X="23.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Controllers\ApplicantsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Controllers.CompanyController" Collapsed="true">
+    <Position X="24.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CompanyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Controllers.HomePageController" Collapsed="true">
+    <Position X="13.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomePageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Controllers.UserController">
+    <Position X="25.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAA=</HashCode>
+      <FileName>Controllers\UserController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.converters.DocxConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>converters\DocxConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.converters.ImageConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>converters\ImageConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.converters.PdfConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>converters\PdfConverter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.InfoForHomeModelClass" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAAAAAAABBAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\InfoForHomeModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.HomeWeeklyState" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\InfoForHomeModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.HomeJobCount" Collapsed="true">
+    <Position X="30.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\InfoForHomeModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.HomeResumeCount" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\InfoForHomeModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.BriefHomeResumeInfo" Collapsed="true">
+    <Position X="31" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Dtos\InfoForHomeModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.JobResumeCount" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\InfoForHomeModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.LoginModelClass" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAgAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\LoginModelClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.LoginSentModel" Collapsed="true">
+    <Position X="30.75" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Dtos\LoginSentModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Dtos.WebSentUserId" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\WebSentUserId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.factories.FileConverterFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>factories\FileConverterFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.factories.ResumeParserFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>factories\ResumeParserFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.Applicant">
+    <Position X="5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>GCAAAgIMKBCExAGAAEIBSAwIAAAAAIAAQCEggkxAARg=</HashCode>
+      <FileName>Models\Applicant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.ApplicantProfile">
+    <Position X="7.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAACAAAAAAAAAAAAAAQEAAIAIAAAAIA=</HashCode>
+      <FileName>Models\ApplicantProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.Company">
+    <Position X="9.5" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAgBAAAAAAAAAAAAAAAAACAAAEAAAAAEA=</HashCode>
+      <FileName>Models\Company.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.Education">
+    <Position X="11.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAQAgAAAAAAAAAAQIQAgAAQgQAAgAAAIAAA=</HashCode>
+      <FileName>Models\Education.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.JobMatch">
+    <Position X="14" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAoAAAAAAAAAAAAAAAAAAAAAAEAIAAA=</HashCode>
+      <FileName>Models\JobMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.JobPosition">
+    <Position X="16.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIggEAAAAAAAAAAAAAAAAAAAhEEBAAAAAA=</HashCode>
+      <FileName>Models\JobPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.MyDbContext">
+    <Position X="18.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAIAAAABAAAAAQAAAAEAAgAAAAAAAEAAAAAZA=</HashCode>
+      <FileName>Models\MyDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.Project">
+    <Position X="25.75" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgACAIAAQAAIQAiAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.Resume">
+    <Position X="28.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAwBAAAAAAAAAAAAAAAAQAAgFABAAAAAA=</HashCode>
+      <FileName>Models\Resume.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.User">
+    <Position X="21" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAgAAAEAAAAAAAAAAAAAACAAAABAAAAEA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Models.WorkExperience">
+    <Position X="23.25" Y="10.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgAAAIQAAAAIQAiAAQAAAAABAAAAAA=</HashCode>
+      <FileName>Models\WorkExperience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.parsers.BasicInfoParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>parsers\BasicInfoParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.parsers.JobMatchParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>parsers\JobMatchParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.parsers.TalentProfileParser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>parsers\TalentProfileParser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Services.ApplicantService" BaseTypeListCollapsed="true">
+    <Position X="17.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAgAAAAAAAAIAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Services\ApplicantService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Services.CompanyService" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AkACAAAgAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\CompanyService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Services.UserService" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\UserService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.ApplicantRepository">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\ApplicantRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.CompanyRepository">
+    <Position X="2.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\CompanyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.JobPositionRepository">
+    <Position X="9.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Data\Repository\JobPositionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.Repository&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAABAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Data\Repository\Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.ResumeRepository">
+    <Position X="5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Data\Repository\ResumeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.UserRepository">
+    <Position X="7.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\UserRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.interfaces.IFileConverter" Collapsed="true">
+    <Position X="4" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\IFileConverter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.interfaces.IFileConverterFactory" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\IFileConverterFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.interfaces.IResumeParser" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\IResumeParser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.interfaces.IResumeParserFactory" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>interfaces\IResumeParserFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Services.IApplicantService" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Services\IApplicantService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Services.ICompanyService" Collapsed="true">
+    <Position X="2.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\ICompanyService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Services.IUserService" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.IApplicantRepository" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\IApplicantRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.ICompanyRepository" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\ICompanyRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.IJobPositionRepository" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Data\Repository\IJobPositionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.IRepository&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAIIA=</HashCode>
+      <FileName>Data\Repository\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.IResumeRepository" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Data\Repository\IResumeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Backend_IntelligentResumeAnalysisSystem.Data.Repository.IUserRepository" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\IUserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
